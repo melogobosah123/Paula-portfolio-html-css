@@ -209,7 +209,13 @@ header.sticky{
 align-self: center;
 height: fit-content;
 }
-
+.skills-content{
+    margin-bottom: 1.0rem;
+    padding: 10px;
+    background: #12141c;
+    border-radius: 0rem;
+    transition: all .40s ease;
+}
 
 
 .main-text{
@@ -302,8 +308,15 @@ height: fit-content;
     font-weight: 600;
     transition: all .40s ease;
     border-radius: 0.5rem;
-
-}.contact-list a:hover{
+}
+#fara{
+    color:  rgb(30, 123, 148);
+}
+#fara:hover{
+    transform: scale(1.01) translateY(0px);
+    color: var(--main-color);
+}
+.contact-list a:hover{
     transform: scale(1.01) translateY(-5px);
     color: var(--main-color);
 }
@@ -423,6 +436,9 @@ form textarea{
 
     #menu-icon{
         display: block;
+    }
+    #skills{
+        margin: 1rem;
     }
     h4{
         font-size: 1.1rem;
