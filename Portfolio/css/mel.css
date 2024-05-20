@@ -99,8 +99,7 @@ section{
 }
 .home-text h1{
     margin: 20px 0;
-    text-shadow: -1px -1px 0 #000,1px 1px 0 #000,-1px -1px 0 #000,1px 1px 0 #000
-    ;
+    text-shadow: -1px -1px 0 #000,1px 1px 0 #000,-1px -1px 0 #000,1px 1px 0 #000;
     font-size: var(--h1-font);
     font-weight: bold;
     line-height: 1.1;
@@ -114,12 +113,15 @@ span{
    color: var(--main-color);
    font-size: 25px;
    font-weight: 600; 
+   text-shadow: -1px -1px 0 #000,1px 1px 0 #000,-1px -1px 0 #000,1px 1px 0 #000;
+   
 }
 .home-text h3{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 3rem;
     color: rgb(30, 123, 148);
+    text-shadow: -1px -1px 0 #000,1px 1px 0 #000,-1px -1px 0 #000,1px 1px 0 #000;
 }
 .btn{
     display: inline-block;
